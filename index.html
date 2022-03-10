@@ -11,8 +11,13 @@
 </head>
 <body>
     <div id="app">
+
+        <h1 v-bind:class="classList">Titolo</h1>
+
+        <img v-bind:src="srcImg" v-bind:alt="altImg">
+
         <input v-model="message" type="text">
-        <div>{{message}}</div>
+        <div>{{ message }}</div>
     </div>
 
     <!-- script -->
