@@ -1,8 +1,6 @@
-const settings = {
-    el: "app",
+const root = new Vue({
+    el: "#root",
     data: {
         message: "Hello World"
     }
-}
-
-const app = new Vue(settings);
+})
