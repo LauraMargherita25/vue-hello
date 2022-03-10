@@ -14,5 +14,12 @@ const shoppingList = new Vue({
     el: "#shopping_list",
     data: {
         header: "shopping list",
+        items: [
+            "Farina",
+            "Uova",
+            "Zucchero",
+            "Burro",
+            "Cacao"
+        ]
     }
 });

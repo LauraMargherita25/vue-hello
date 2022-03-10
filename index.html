@@ -10,12 +10,24 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+
+    <!-- Esercizio Boolean -->
     <div id="app">
 
         <h1 v-model="message" :class="classList">{{ message }}</h1>
 
         <img :src="srcImg" :alt="altImg">
 
+    </div>
+
+    <!-- By myself -->
+
+    <div id="shopping_list">
+        <h1>{{ header.toLocaleUpperCase() }}</h1>
+
+        <ul>
+            <li v-for="item in items">{{ item }}</li>
+        </ul>
     </div>
 
     <!-- script -->
