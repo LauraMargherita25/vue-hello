@@ -1,5 +1,5 @@
 const settings =  {
-    el: "#app",
+    el: '#app',
     data: {
         message: "Hello World"
     }
